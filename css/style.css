@@ -23,7 +23,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #6c6c6c;
+          border:solid #5F321E;
+  box-shadow: #000000;
   padding-top: 25px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -52,18 +53,19 @@
 
 .chocolate_sections .box .detail-box {
   width:100%;
-  background-color:#FFDF9E;
-  color: #5F321E;
+  background-color:#5F321E;
+  color: #FFDF9E;
   padding: 15px;
   margin-top: 20px;
 }
 
 .chocolate_sections .box .detail-box h6 {
   font-weight: 600;
-  color:  #5F321E;
+  color: #FFDF9E;
   font-size: 30px;
   font-family: 'Hind Madurai', Arial, sans-serif;
   text-align: center;
+  margin-top: 10px;
 }
 
 .chocolate_sections .box .detail-box h6 span {
