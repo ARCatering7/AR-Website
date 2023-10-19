@@ -1,3 +1,140 @@
+.chocolate_sections .heading_container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.chocolate_sections .chocolate_container {
+  padding-bottom: 55px;
+}
+
+.chocolate_sections .box {
+  text-align: center;
+  margin: 15px;
+  padding-top: 25px;
+ 
+  
+}
+
+.chocolate_sections .box .img-box {
+  width: 300px;
+  height: 300px;
+ 
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          
+}
+
+.chocolate_sections .box .img-box img {
+  width: 320px;
+  height:320px;
+}
+
+.chocolate_sections .box .detail-box {
+  width: 350px;
+  background-color:#FFDF9E;
+  color: #5F321E;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.chocolate_sections .box .detail-box h6 {
+  font-weight: 600;
+  color:  #5F321E;
+  font-size: 30px;
+  font-family: 'Hind Madurai', Arial, sans-serif;
+  text-align: center;
+}
+
+.chocolate_sections .box .detail-box h6 span {
+  color:  #5F321E;
+}
+
+.chocolate_sections .box .detail-box h5 {
+  font-weight: 600;
+}
+
+.chocolate_sections .box .detail-box a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.chocolate_sections .box:hover {
+  border-color: transparent;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.chocolate_sections .box:hover .detail-box {
+  visibility: visible;
+  opacity: 1;
+}
+
+.chocolate_sections .slick-prev,
+.chocolate_sections .slick-next {
+  width: 55px;
+  height: 55px;
+  background-color: #ffffff;
+  color: #a04120;
+  top: initial;
+  bottom: 0px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.chocolate_sections .slick-prev:hover,
+.chocolate_sections .slick-next:hover {
+  background-color: #46200b;
+}
+
+.chocolate_sections .slick-prev:hover:before,
+.chocolate_sections .slick-next:hover:before {
+  color: #ffffff;
+}
+
+.chocolate_sections .slick-prev {
+  left: calc(50% - 35px);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.chocolate_sections .slick-next {
+  right: calc(50% - 35px);
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.chocolate_sections .slick-prev:before,
+.chocolate_sections .slick-next:before {
+  font-family: "FontAwesome";
+  position: relative;
+  z-index: 2;
+  color: #a04120;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.chocolate_sections .slick-prev:before {
+  content: "\f060";
+}
+
+.chocolate_sections .slick-next:before {
+  content: "\f061";
+}
+
+
+
+
+
+
+
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
