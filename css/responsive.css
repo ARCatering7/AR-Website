@@ -162,11 +162,11 @@
 }
 
 @media (max-width: 480px) {
-  .offer_section .box .detail-box {
-    padding: 45px 15px 150px 15px;
+  .offer_section .boxs .detail-boxs {
+    padding: 15px 15px 15px 15px;
   }
 
-  .offer_section .box .img-box {
+  .offer_section .boxs .img-boxs {
     margin-top: -115px;
   }
 }
