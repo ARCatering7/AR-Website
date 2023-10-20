@@ -53,15 +53,15 @@
 
 .chocolate_sections .box .detail-box {
   width:100%;
-  background-color:#5F321E;
-  color: #FFDF9E;
+  background-color:#FFDF9E;
+  color: #5F321E;
   padding: 15px;
   margin-top: 20px;
 }
 
 .chocolate_sections .box .detail-box h6 {
   font-weight: 600;
-  color: #FFDF9E;
+  color: #5F321E;
   font-size: 30px;
   font-family: 'Hind Madurai', Arial, sans-serif;
   text-align: center;
@@ -155,7 +155,10 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 50px 0;
+}
+.layout_paddings {
+  padding: 100px 0px;
 }
 
 .layout_padding2 {
@@ -579,7 +582,7 @@ padding-right: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #6c6c6c;
+  border: solid #5F321E;
   padding-top: 25px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -607,15 +610,15 @@ padding-right: 10px;
 }
 
 .chocolate_section .box .detail-box {
-  width: 350px;
+  width: 330px;
   background-color:#FFDF9E;
   color: #5F321E;
   padding: 15px;
   margin-top: 20px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  margin-bottom: 10PX;
+  margin-left: 10PX;
+  margin-right: 10PX;
+
 }
 
 .chocolate_section .box .detail-box h6 {
