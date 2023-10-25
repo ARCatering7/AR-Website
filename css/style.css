@@ -1,95 +1,86 @@
-.serviceBox{
-  color: #555;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  padding: 15px 0 0;
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Uni\ Ila.Sundaram-08.ttf);
 }
-.serviceBox .service-icon{
-  color: #fff;
-  background: #0B7274;
-  font-size: 45px;
-  line-height: 103px;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto 65px;
-  border-radius: 50%;
+@font-face {
+  font-family:chemmozhi ;
+  src: url(../fonts/1094_ChemmozhiComic.ttf);
+}
+@font-face {
+  font-family: Lohit;
+  src: url(../fonts/Lohit-Tamil.ttf);
+}
+@font-face {
+  font-family: baloo;
+  src: url(../fonts/BalooThambi2-VariableFont_wght.ttf);
+}
+
+
+
+.serviceBox{
+  color: #f67d4a;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 55px 20px 60px;
+  border-radius: 20px;
+  overflow: hidden;
   position: relative;
   z-index: 1;
-  transition: all 0.3s ease 0s;
-} 
-.serviceBox .service-icon:before,
-.serviceBox .service-icon:after{
+}
+.serviceBox:before,
+.serviceBox:after{
   content: "";
-  width: calc(100% + 30px);
-  height: calc(100% + 30px);
-  border: 5px solid #0B7274;
-  border-top-color: transparent;
-  border-left-color: transparent;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background: #f67d4a;
+  height: 45px;
+  width: 100%;
+  box-shadow: 0 -3px 8px rgba(0,0,0,0.3) inset;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
+  top: 0;
+  left: 0;
 }
-.serviceBox .service-icon:after{
-  background-color: #0B7274;
-  height: 40px;
-  width: 35px;
-  border-radius: 0;
-  border: none;
-  transform: translateX(-50%) translateY(0) rotate(0);
-  top: calc(100% + 10px);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+.serviceBox:after{
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3) inset;
+  top: auto;
+  bottom: 0;
 }
+.serviceBox .service-icon{
+  font-size: 40px;
+  margin: 0 0 10px;
+} 
 .serviceBox .title{
-  color: #0B7274;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
   margin: 0 0 10px;
-  
 }
 .serviceBox .description{
-  font-size: 15px;
+  color:black;
+  font-size: 14px;
   line-height: 25px;
   margin: 0;
-  color: #000000;
-  font-weight: 500;
 }
-.serviceBox.pink .service-icon,
-.serviceBox.pink .service-icon:after{
-  background-color: #E4667B;
+.serviceBox.pink{ color: #EC6D9E; }
+.serviceBox.pink:before,
+.serviceBox.pink:after{
+  background-color: #EC6D9E;
 }
-.serviceBox.pink .service-icon:before{
-  border-color: #E4667B;
-  border-left-color: transparent;
-  border-top-color: transparent;
+.serviceBox.purple{ color: #8672B9; }
+.serviceBox.purple:before,
+.serviceBox.purple:after{
+  background-color: #8672B9;
 }
-.serviceBox.pink .title{ color: #E4667B; }
-.serviceBox.purple .service-icon,
-.serviceBox.purple .service-icon:after{
-  background-color: #583DA6;
+.serviceBox.blue{ color: #5196EC; }
+.serviceBox.blue:before,
+.serviceBox.blue:after{
+  background-color: #5196EC;
 }
-.serviceBox.purple .service-icon:before{
-  border-color: #583DA6;
-  border-left-color: transparent;
-  border-top-color: transparent;
+@media only screen and (max-width: 800px){
+  .serviceBox{ margin: 0 0 30px; }
+  .serviceBox{margin-left:10px;}
+  .serviceBox{margin-right:10px;}
 }
-.serviceBox.purple .title{ color: #583DA6; }
-.serviceBox.green .service-icon,
-.serviceBox.green .service-icon:after{
-  background-color: #0EBAB3;
-}
-.serviceBox.green .service-icon:before{
-  border-color: #0EBAB3;
-  border-left-color: transparent;
-  border-top-color: transparent;
-}
-.serviceBox.green .title{ color: #0EBAB3; }
-@media only screen and (max-width: 990px){
-  .serviceBox{ margin: 0 0 40px; }
-}
+
 
 
 .text-blk {
